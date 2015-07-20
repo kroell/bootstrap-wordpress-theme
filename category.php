@@ -4,6 +4,8 @@
 
 	<?php while ( have_posts() ) : the_post(); ?>
  
+ HALLO JOCHEN
+
 		<article class="category-item">
 			<h1><?php the_title(); ?></h1>
 			<h2>Geschrieben von: <?php the_author(); ?></h2>
